@@ -1,12 +1,12 @@
 # 🎬 Custom Movie Poster Marquee Controller Manual
 
-This manual provides a quick-reference guide for your custom **96-LED Movie Poster Marquee System**. It includes hardware specifications, user interface shortcuts, and a complete indexed directory of your **35 integrated display patterns**.
+This is a a quick-reference guide for the custom **96-LED Movie Poster Marquee System**. It includes hardware specifications, user interface shortcuts, and a complete indexed directory of the **35 integrated display patterns**.
 
 ---
 
 ## 🎛️ Encoder Control Operations
 
-Your rotary encoder utilizes a unified single-button state machine to switch configurations cleanly.
+The rotary encoder utilizes a unified single-button state machine to switch configurations cleanly.
 
 | Physical Action | Mode / State | Operational Result |
 | :--- | :--- | :--- |
@@ -16,47 +16,47 @@ Your rotary encoder utilizes a unified single-button state machine to switch con
 | **Long Press (1.5s)** | **Master Power Toggle** | Safely sleeps or awakens the system. Turns all 96 LEDs completely off. |
 
 ### Standard Turning Actions per Mode:
-* **In Speed Mode (State 0):** **Clockwise** speeds up animations (decreases delay); **Counter-Clockwise** slows them down (increases delay).
-* **In Brightness Mode (State 1):** Dynamically scales your sign's output. Built-in fine tuning automatically dials by **15-step increments** above 20 brightness, and switches to safe **2-step micro-adjustments** below 20.
-* **In Selection Mode (State 2):** **Clockwise** scrolls forward up your pattern list; **Counter-Clockwise** scrolls backward down your list.
+* **In Speed Adjustment Mode (State 0):** **Clockwise** speeds up animations (decreases delay); **Counter-Clockwise** slows them down (increases delay).
+* **In Brightness Adjustment Mode (State 1):** Dynamically scales the sign's output. Built-in fine tuning automatically dials by **15-step increments** above 20 brightness, and switches to safe **2-step micro-adjustments** below 20.
+* **In Selection Mode (State 2):** **Clockwise** scrolls forward up your pattern list; **Counter-Clockwise** scrolls backward down the list. Use the light pattern to show which item is sselected. Number of light lit shows the current display choice by number.
 
 ---
 
 ## 🗂️ Display Pattern Reference Guide
 
-When you enter **Selection Mode (State 2)**, white tracking dots will count up your LED strip sequentially. Use the index mapping below to find your desired pattern layout.
+When you enter **Selection Mode (State 2)**, white tracking dots will light-up cumulatively. Use the index mapping below to find the number of lights showing the current selected display pattern.
 
 ### 🏛️ Classic Cinematic Marquees
 * **Index 01: `marqueeTheaterGold`**
   Classic warm cinema look. Isolated moving bulbs with wide dark spaces.
 * **Index 02: `marqueeChristmas`**
-  Alternating festive red and green blocks dancing around the frame.
+  Alternating festive Christmas red and green blocks dancing around the frame.
 * **Index 03: `marqueeRainbow`**
-  Vibrant spectrum marquee shifting colors smoothly down the line.
+  Vibrant spectrum marquee shifting rainbow colors smoothly.
 * **Index 04: `marqueeMazeBlue`**
-  Single-bulb blue block pattern designed for clean, sharp architectural outlining.
+  Maize and blue University of Michigan rotating colors. Adjust brightness to adjust to the correct hue. 
 * **Index 05: `marqueeGreenWhite`**
-  Clean, traditional green and white bulb layout.
+  Michigan State green and white bulb layout rotating colors.  Adjust brightness to adjust to the correct hue. 
 * **Index 06: `marqueePolice`**
   High-intensity alternating red and blue emergency-style sequence.
 
 ### 🎓 Regional University Marquees
 * **Index 07: `marqueeWayneState`**
-  Traditional theater layout tuned to official Deep Forest Jade and Gold.
+  Traditional theater layout tuned to Wayne State University colors - Deep Forest Jade and Gold.
 * **Index 08: `marqueeCMU`**
-  Central Michigan traditional layout using crisp Maroon and Gold.
+  Central Michigan layout using crisp Maroon and Gold.
 * **Index 09: `marqueeOakland`**
-  Oakland University layout using traditional Golden Grizzlies Gold and unlit gaps.
+  Oakland University layout using Golden Grizzlies Gold and dark, near black or turned-off alternating leds.
 
 ### 🏃 Legacy & Kinetic Animations
 * **Index 10: `chase`**
-  Traditional inline pixel chaser tracking around the perimeter.
+  Inline pixel chaser tracking around the perimeter.
 * **Index 11: `chaseit`**
   High-speed variant variant of the standard layout chaser sequence.
 * **Index 12: `chaseone`**
   A single, sharp trailing pixel tracking around the rectangle frame.
 * **Index 13: `acceleratingCylon`**
-  Scanner eye that builds momentum as it bounces back and forth across your bounds.
+  Scanner eye that builds momentum as it bounces back and forth across the perimeter.
 * **Index 14: `rainbow`**
   Full fluid spectrum cycling across all 96 LEDs uniformly.
 * **Index 15: `rainbowWithGlitter`**
@@ -68,13 +68,13 @@ When you enter **Selection Mode (State 2)**, white tracking dots will count up y
 * **Index 18: `juggle`**
   Multiple independent color nodes rhythmically pulsing in step with each other.
 * **Index 19: `bpm`**
-  Saturated pulsing light bars synchronized to a rhythmic tempo grid.
+  Saturated pulsing light bars synchronized to a rhythmic bpm tempo grid.
 * **Index 20: `pacifica_loop`**
   Advanced multi-layered simulation mimicking rich, rolling deep-ocean waves.
 * **Index 21: `pride`**
   Slow-moving, layered spectrum animation displaying a rich color layout.
 * **Index 22: `cylon`**
-  Traditional single-node scanner bar shifting side-to-side down your grid.
+  Traditional single-node scanner bar shifting side-to-side (around) the display.
 * **Index 23: `multiCylon`**
   Multiple intersecting scanning points passing over each other across the frame.
 
@@ -82,15 +82,15 @@ When you enter **Selection Mode (State 2)**, white tracking dots will count up y
 * **Index 24: `marqueeHollywood`**
   Baseline warm glow punctuated by random high-speed white flashbulbs.
 * **Index 25: `MaizeAndBlueChase`**
-  Solid shoulder-to-shoulder blocks of deep University of Michigan Maize and Blue.
+  Solid chasing blocks of deep University of Michigan Maize and Blue. Adjust brightness to adjust to the correct hue. 
 * **Index 26: `GreenAndWhiteChase`**
-  Saturated alternating block chase using Spartan Green and White.
+  Saturated alternating block chase using Spartan Green and White. Adjust brightness to adjust to the correct hue. 
 * **Index 27: `WayneChase`**
-  Optimized solid block chase utilizing Wayne State Forest Emerald and Canary Gold.
+  Optimized solid block chase utilizing Wayne State Forest Emerald and Canary Gold. Adjust brightness to adjust to the correct hue. 
 * **Index 28: `CMUChase`**
-  High-contrast Central Michigan block chase using pure Crimson Burgundy and Amber.
+  High-contrast Central Michigan block chase using pure Crimson Burgundy and Amber. Adjust brightness to adjust to the correct hue. 
 * **Index 29: `OaklandChase`**
-  Solid Golden Grizzlies block chase using deep Amber and simulated Midnight Obsidian Blue.
+  Solid Golden Grizzlies block chase using deep Amber and simulated Midnight Obsidian Blue. Adjust brightness to adjust to the correct hue. 
 * **Index 30: `ticketChase`**
   Premium vintage marquee layout featuring moving dashes separated by long blank blocks.
 * **Index 31: `carnivalChase`**
@@ -111,7 +111,7 @@ When you enter **Selection Mode (State 2)**, white tracking dots will count up y
 ## 🔒 Master System Safety Bounds
 These constants are locked into your code architecture to protect your power supply, keep your controller running cool, and prevent color clipping.
 
-* **Hardware Amperage Limit:** `3,000 mA (3.0 Amps)` (Preserves a safe 600mA buffer on your 3.6A wall brick)
+* **Hardware Amperage Limit:** `3,000 mA (3.0 Amps)` (Preserves a safe 600mA buffer on a minimum required 3.6A wall brick)
 * **Maximum Brightness Ceiling:** `220 / 255` (Prevents high-power washing and holds deep color tinting)
-* **Minimum Brightness Floor:** `1 / 255` (Ensures the display stays visible and active during extreme dimming)
+* **Minimum Brightness Floor:** `1 / 255` (Ensures the display stays visible and active during extreme dimming). Use long press to turn all LEDs off or back on. 
 * **Hardware Protection:** `470 Ω Resistor` (Pin 3 data line protector) & `1000 µF Capacitor` (Barrel jack voltage cushion)
