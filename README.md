@@ -42,11 +42,11 @@ When you enter **Selection Mode (State 2)**, white tracking dots will light-up c
 * **Index 06: `marqueePolice`**
   High-intensity alternating red and blue emergency-style sequence.
 * **Index 07: `marqueeWayneState`**
-  Traditional theater layout tuned to Wayne State University colors - Deep Forest Jade and Gold.
+  Traditional theater layout tuned to Wayne State University colors - Deep Forest Jade and Gold. Adjust brightness to adjust to correct the hue.
 * **Index 08: `marqueeCMU`**
-  Central Michigan layout using crisp Maroon and Gold.
+  Central Michigan layout using crisp Maroon and Gold. Adjust brightness to adjust to correct the hue.
 * **Index 09: `marqueeOakland`**
-  Oakland University layout using Golden Grizzlies Gold and dark, near black or turned-off alternating leds.
+  Oakland University layout using Golden Grizzlies Gold and dark, near black or turned-off alternating leds. Adjust brightness to adjust to correct the hue.
 
 ### 🏃 Legacy & Kinetic Animations
 * **Index 10: `chase`**
