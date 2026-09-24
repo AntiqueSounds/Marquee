@@ -18,7 +18,7 @@ The rotary encoder utilizes a unified single-button state machine to switch conf
 ### Standard Turning Actions per Mode:
 * **In Speed Adjustment Mode (State 0):** **Clockwise** speeds up animations (decreases delay); **Counter-Clockwise** slows them down (increases delay).
 * **In Brightness Adjustment Mode (State 1):** Dynamically scales the sign's output. Built-in fine tuning automatically dials by **15-step increments** above 20 brightness, and switches to safe **2-step micro-adjustments** below 20.
-* **In Selection Mode (State 2):** **Clockwise** scrolls forward up your pattern list; **Counter-Clockwise** scrolls backward down the list. Use the light pattern to show which item is sselected. Number of light lit shows the current display choice by number.
+* **In Selection Mode (State 2):** **Clockwise** scrolls forward up the pattern list; **Counter-Clockwise** scrolls backward down the list. Use the light pattern to show which item is sselected. Number of light lit shows the current display choice by number.
 
 ---
 
@@ -109,7 +109,7 @@ When you enter **Selection Mode (State 2)**, white tracking dots will light-up c
 ---
 
 ## 🔒 Master System Safety Bounds
-These constants are locked into your code architecture to protect your power supply, keep your controller running cool, and prevent color clipping.
+These constants are locked into the software to protect the power supply, keep the controller running cool, and prevent color clipping.
 
 * **Hardware Amperage Limit:** `3,000 mA (3.0 Amps)` (Preserves a safe 600mA buffer on a minimum required 3.6A wall brick)
 * **Maximum Brightness Ceiling:** `220 / 255` (Prevents high-power washing and holds deep color tinting)
