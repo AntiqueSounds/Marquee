@@ -33,14 +33,14 @@ When you enter **Selection Mode (State 2)**, white tracking dots will light-up c
   Alternating festive Christmas red and green blocks dancing around the frame.
 * **Index 03: `marqueeRainbow`**
   Vibrant spectrum marquee shifting rainbow colors smoothly.
+  
+### 🎓 Regional University Marquees
 * **Index 04: `marqueeMazeBlue`**
   Maize and blue University of Michigan rotating colors. Adjust brightness to adjust to the correct hue. 
 * **Index 05: `marqueeGreenWhite`**
   Michigan State green and white bulb layout rotating colors.  Adjust brightness to adjust to the correct hue. 
 * **Index 06: `marqueePolice`**
   High-intensity alternating red and blue emergency-style sequence.
-
-### 🎓 Regional University Marquees
 * **Index 07: `marqueeWayneState`**
   Traditional theater layout tuned to Wayne State University colors - Deep Forest Jade and Gold.
 * **Index 08: `marqueeCMU`**
